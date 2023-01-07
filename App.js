@@ -1,7 +1,7 @@
 // Import myModule
-import Car from "./myModule.js";
+import Car from "./index.js";
 
-let mercedes = new Car();
+let mercedes = new Car("Mercedes");
 
 // Printing data
 console.log(mercedes);
